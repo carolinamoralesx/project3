@@ -5,12 +5,12 @@
 
     for ( var i = 0; i < names.length; i++) {
 
-      var firstLetter =names[i].charAt(0);
+      var fL =names[i].charAt(0);
       
-      if (firstLetter.toLocaleLowerCase() == "j") {
-        byeSpeaker.speak(names[i]);
+      if (fL.toLocaleLowerCase() == "j") {
+        bS.speak(names[i]);
       } else {
-        helloSpeaker.speak(names[i]);
+        hS.speak(names[i]);
       }
     }
 
